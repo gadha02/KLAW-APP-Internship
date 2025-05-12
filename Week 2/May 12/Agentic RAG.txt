@@ -1,0 +1,35 @@
+Agentic RAG 
+
+Agentic RAG is the use of AI agents to facilitate retrieval augmented generation (RAG). Agentic RAG systems add AI agents to the RAG pipeline to increase adaptability and accuracy. 
+Compared to traditional RAG systems, agentic RAG allows large language models (LLMs) to conduct information retrieval from multiple sources and handle more complex workflows.  
+
+What is RAG? 
+Retrieval augmented generation is an artificial intelligence (AI) application that connects a generative AI model with an external knowledge base. The data in the knowledge base augments user queries with more context so the LLM can generate more accurate responses. RAG enables LLMs to be more accurate in domain-specific contexts without needing fine-tuning.
+
+  
+Rather than rely solely on training data, RAG-enabled AI models can access current data in real time through APIs and other connections to data sources. A standard RAG pipeline 
+comprises two AI models: 
+ 
+• The information retrieval component, typically an embedding model paired with a vector database containing the data to be retrieved.  
+• The generative AI component, usually an LLM.  
+
+In response to natural language user queries, the embedding model converts the query to a vector embedding, then retrieves similar data from the knowledge base. The AI system combines the retrieved data with the user query for context-aware response generation. 
+
+
+What is agentic AI? 
+Agentic AI is a type of AI that can determine and carry out a course of action by itself. Most agents available at the time of publishing are LLMs with function-calling capabilities, meaning that they can call tools to perform tasks. In theory, AI agents are LLMs with three significant characteristics:  
+• They have memory, both short and long term, which enables them to plan and execute complex tasks. Memory also allows agents to refer to previous tasks and use that data to inform future workflows. Agentic RAG systems use semantic caching to store and refer to previous sets of queries, context and results.  
+• They are capable of query routing, step-by-step planning and decision-making. Agents use their memory capabilities to retain information and plot an appropriate course of action in response to complex queries and prompts.  
+• They can perform tool calling through APIs. More capable agents can choose which tools to use for the workflow they generate in response to user interactions.  
+
+Agentic workflows can consist of either one AI agent or multiagent systems that combine several agents together. 
+
+
+How does agentic RAG work? 
+Agentic RAG works by incorporating one or more types of AI agents into RAG systems. For example, an agentic RAG system might combine multiple information retrieval agents, each specialized in a certain domain or type of data source. One agent queries external databases while another can comb through emails and web results. 
+
+Agentic RAG systems can contain one or more types of AI agents, such as: 
+• Routing agents 
+• Query planning agents 
+• ReAct agents 
+• Plan-and-execute agents 
