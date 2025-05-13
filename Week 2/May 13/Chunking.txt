@@ -1,0 +1,24 @@
+Chunking
+
+Chunking is the process of breaking down large pieces of text into smaller segments. It’s an essential technique that helps optimize the relevance of the content we get back from a vector database once we use the LLM to embed content.
+
+Chunking is a necessary step in vectorizing data for many reasons. Smaller chunks of data use less memory, accelerate retrieval times, enable parallel processing of data, and allow scaling of the database. Breaking content down into smaller parts can improve the relevance of content that’s retrieved from a vector database, as well. Retrieved chunks are passed into the prompt of the large language model (LLM). When used as part of retrieval-augmented generation (RAG), chunking helps control costs as fewer, more relevant objects can be passed to the LLM.
+
+
+Chunking methods
+
+• Fixed-Size Chunking :
+This is the simplest and most common method. Text is split into chunks based on a fixed number of tokens, with optional overlap to preserve context across boundaries. It’s fast, easy to implement, and works well for many general use cases, especially when paired with embedding-based search.
+
+• Recursive Chunking :
+In this method, text is split using a hierarchy of separators (like paragraph, sentence, word) until chunks are within the desired size. It’s more flexible than fixed-size chunking and maintains better logical structure while still aiming for consistent chunk sizes.
+
+• Document-Specific Chunking :
+This approach respects the inherent structure of a document—such as paragraphs, headers, or sections—and chunks accordingly. It works well for structured formats like Markdown or HTML, preserving coherence and making retrieval more meaningful.
+
+• Semantic Chunking :
+Semantic chunking analyzes the content to split it into meaningfully complete units. It focuses on preserving context and intent, which improves the quality of responses in retrieval tasks. However, it’s slower and computationally heavier than structural approaches.
+
+• Agentic Chunking :
+Inspired by how humans read, this method treats the document sequentially—deciding dynamically when to start a new chunk based on meaning. While promising in preserving natural flow, it is still experimental and costly due to multiple LLM calls and lack of standardized implementations.
+
