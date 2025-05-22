@@ -1,0 +1,38 @@
+What is ChromaDB?
+ChromaDB is an open-source embedding database for LLM applications.
+
+What is Gemini?
+Gemini is Google's multimodal large language model that can process text, code, and images.
+
+What is RAG?
+RAG stands for Retrieval-Augmented Generation. It enhances LLMs by injecting relevant retrieved documents into the generation process.
+
+What is a vector database?
+A vector database stores and retrieves high-dimensional embeddings to support similarity-based queries.
+
+Why use RAG over plain LLM?
+RAG helps LLMs answer questions more accurately by providing relevant facts from a document store.
+
+Can Gemini be used with RAG?
+Yes, Gemini can be combined with RAG by retrieving context and using Gemini to generate answers.
+
+Is ChromaDB persistent?
+Yes, ChromaDB can persist data locally using `PersistentClient`.
+
+What is a collection in ChromaDB?
+A collection is a logical grouping of documents, similar to a table in a database.
+
+How many documents can ChromaDB store?
+ChromaDB can scale to millions of documents depending on hardware and indexing strategy.
+
+Can RAG handle real-time questions?
+Yes, RAG systems can handle real-time queries by fetching and injecting context before LLM generation.
+
+What is an FAQ chatbot?
+An FAQ chatbot answers frequently asked questions using preloaded content and LLMs.
+
+What happens if no matching documents are found?
+The chatbot will typically inform the user that no relevant information is available.
+
+What is the purpose of a RAG retriever?
+The retriever finds relevant documents from a database to provide context for the LLM.
