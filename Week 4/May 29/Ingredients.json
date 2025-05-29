@@ -1,0 +1,15 @@
+{
+  "olive oil": {"calories": 120, "protein": 0, "carbs": 0, "fat": 14, "tags": ["vegan", "fat"]},
+  "spinach": {"calories": 20, "protein": 2, "carbs": 3, "fat": 0, "tags": ["vegan", "vegetable"]},
+  "avocado": {"calories": 160, "protein": 2, "carbs": 9, "fat": 15, "tags": ["vegan", "fat"]},
+  "brown rice": {"calories": 110, "protein": 3, "carbs": 23, "fat": 1, "tags": ["vegan", "grain"]},
+  "mushrooms": {"calories": 15, "protein": 2, "carbs": 2, "fat": 0, "tags": ["vegan", "vegetable"]},
+  "peanut butter": {"calories": 190, "protein": 8, "carbs": 6, "fat": 16, "tags": ["vegan", "fat", "protein"]},
+  "tomato": {"calories": 18, "protein": 1, "carbs": 4, "fat": 0, "tags": ["vegan", "vegetable"]},
+  "cashews": {"calories": 160, "protein": 5, "carbs": 9, "fat": 13, "tags": ["vegan", "fat", "protein"]},
+  "nutritional yeast": {"calories": 60, "protein": 8, "carbs": 5, "fat": 1, "tags": ["vegan", "protein", "flavor"]},
+  "garlic": {"calories": 4, "protein": 0.2, "carbs": 1, "fat": 0, "tags": ["vegan", "spice"]},
+  "onion": {"calories": 40, "protein": 1, "carbs": 9, "fat": 0, "tags": ["vegan", "vegetable"]},
+  "plant-based milk": {"calories": 30, "protein": 1, "carbs": 2, "fat": 2, "tags": ["vegan", "liquid"]},
+  "lemon juice": {"calories": 4, "protein": 0, "carbs": 1, "fat": 0, "tags": ["vegan", "flavor"]}
+}
