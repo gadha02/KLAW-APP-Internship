@@ -1,0 +1,4 @@
+Django>=5.2
+djangorestframework
+djangorestframework-simplejwt  # Optional if using JWT in future
+django-filter
